@@ -1,0 +1,19 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    height: var(--input-height);
+    padding: 12px;
+    color: var(--color-gray-1);
+    background: var(--color-dark-2);
+    border: 1px var(--color-dark-2) solid;
+    border-radius: var(--border-radius);
+
+    &:hover {
+        color: var(--color-dark-2);
+        background: transparent;
+    }
+
+    &:active {
+        scale: 1.05;
+    }
+}
